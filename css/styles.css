@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  background-color: #ffffff;
+  color: #4c4c4c;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5.625rem;
+  color: #1687a7;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #1687a7;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  /*letter-spacing: 1px;*/
+  color: #1687a7;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted 6px #d3e0ea;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+a {
+  color: #276678;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6f5f5;
+}
+
+
+
+
+.top-container {
+  background-color: #f6f5f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.hero-profile-img {
+  /*width: 20%;*/
+}
+
+.pagoda-img {
+  position: absolute;
+  width: 10%;
+  right: 300px;
+  top: 40px;
+}
+
+.clouds-img {
+  position: absolute;
+  width: 10%;
+  left: 250px;
+  bottom: 300px;
+}
+
+.phil-profile {
+  width: 20%;
+}
+
+.intro-1 {
+  width: 30%;
+  margin: auto;
+}
+
+
+
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.travel-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.teach-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.design-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.climb-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.skill-row-left {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-row-right {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: right;
+}
+
+
+
+
+.bottom-container {
+  background-color: #d3e0ea;
+  padding: 50px 0 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  /*color: #f6f5f5;
+  font-size: 0.75rem;*/
+  padding: 0 20px;
+}
+
+.accreditation {
+  margin: 5px;
+}
+
+.btn {
+  background: #D3E0EA;
+  background-image: -webkit-linear-gradient(top, #D3E0EA, #ACBFCC);
+  background-image: -moz-linear-gradient(top, #D3E0EA, #ACBFCC);
+  background-image: -ms-linear-gradient(top, #D3E0EA, #ACBFCC);
+  background-image: -o-linear-gradient(top, #D3E0EA, #ACBFCC);
+  background-image: -webkit-gradient(to bottom, #D3E0EA, #ACBFCC);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #40515E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 0;
+  background: #D3E0EA;
+  background-image: -webkit-linear-gradient(top, #D3E0EA, #9EB4C6);
+  background-image: -moz-linear-gradient(top, #D3E0EA, #9EB4C6);
+  background-image: -ms-linear-gradient(top, #D3E0EA, #9EB4C6);
+  background-image: -o-linear-gradient(top, #D3E0EA, #9EB4C6);
+  background-image: -webkit-gradient(to bottom, #D3E0EA, #9EB4C6);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
